@@ -15,7 +15,7 @@ spec:
    spec:
      containers:
      - name: nginx
-       image: 324483885455.dkr.ecr.eu-north-1.amazonaws.com/nginx-service/custom-nginx:
+       image: 324483885455.dkr.ecr.eu-north-1.amazonaws.com/nginx-service/custom-nginx:1.0.0
        ports:
        - containerPort: 80
        volumeMounts:
